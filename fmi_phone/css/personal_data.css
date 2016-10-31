@@ -1,0 +1,33 @@
+/*个人资料详情*/
+.personal_data_detail{ margin-top: 70px; width: 100%; max-width: 600px; overflow: hidden; background: #f1f1f1;}
+@media screen and (max-width: 560px){
+	.personal_data_detail{ margin-top: 50px;}
+}
+/*头像*/
+.personal_data_detail_a{ width: 100%; height: 80px; line-height: 60px; border-bottom: 1px solid #f4f4f4; box-sizing: border-box; overflow: hidden; background: #fff; padding: 10px 15px;}
+.personal_data_detail_a1{ overflow: hidden; width: 100%;}
+.personal_data_detail_a1 p{ float: left; font-size: 14px; color: #666; overflow: hidden;}
+.personal_data_detail_a1 img{ float: right; width: 60px; border-radius: 100%;}
+
+/*昵称*/
+.personal_data_detail_b{ width: 100%; height: 50px; line-height: 30px; border-bottom: 1px solid #f4f4f4; box-sizing: border-box; overflow: hidden; background: #fff; position: relative; padding: 10px 15px; margin-bottom: 10px;}
+.personal_data_detail_b1{ float: left; font-size: 14px; color: #666; overflow: hidden;}
+.personal_data_detail_b2{ float: right; overflow: hidden; width: 50%;}
+.personal_data_detail_b2 input{ width: 90%; text-align: right; font-size: 14px; height: 30px; line-height: 30px; float: left; font-family: "微软雅黑"}
+.personal_data_detail_b2 p{ width: 90%; font-size: 14px; text-align: right; height: 30px; line-height: 30px; float: left; font-family: "微软雅黑"; font-size: 14px;}
+.personal_data_detail_b2 input:focus{ outline: none;}
+.personal_data_detail_b2 img{ width: 10px; float: right; line-height: 30px; margin-top: 5px;}
+
+/*姓名*/
+.personal_data_detail_c{ width: 100%; height: 50px; line-height: 30px; border-bottom: 1px solid #f4f4f4; box-sizing: border-box; overflow: hidden; background: #fff; position: relative; padding: 10px 15px;}
+.personal_data_detail_c1{ float: left; font-size: 14px; color: #666; overflow: hidden;}
+.personal_data_detail_c2{ float: right; overflow: hidden; width: 74%;}
+.personal_data_detail_c2 input{ width: 90%; font-size: 14px; text-align: right; height: 30px; line-height: 30px; float: left; font-family: "微软雅黑"}
+.personal_data_detail_c2 p{ font-size: 14px; width: 90%; text-align: right; height: 30px; line-height: 30px; float: left; font-family: "微软雅黑"; font-size: 14px;}
+.personal_data_detail_c2 input:focus{ outline: none;}
+.personal_data_detail_c2 img{ width: 10px; float: right; line-height: 30px; margin-top: 5px;}
+
+.personal_data_detail_d{ width: 95%; color: #fff; background: #88aa22; padding: 15px 0; font-family: "微软雅黑"; font-size: 16px; margin: 30px 15px; cursor: pointer;}
+@media screen and (max-width: 560px){
+	.personal_data_detail_d{ width: 92%;}
+}

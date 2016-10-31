@@ -1,0 +1,51 @@
+*{ margin: 0; padding: 0; border: 0; list-style: none;}
+body{ font-family: "微软雅黑"}
+a{ text-decoration: none;}
+.wm_shadow{ width: 100%; max-width: 600px; box-shadow: 0px 0px 4px #ccc;}
+.huodong_banner{ margin-top: 70px;}
+.huodong_banner img{ width: 100%;}
+/*线下活动*/
+.line_huodong{ margin-top: 30px; padding: 0 15px; padding-bottom: 30px;}
+.line_huodong_a{ overflow: hidden; text-align: center;}
+.line_huodong_a2{ color: #010101; font-size: 24px; list-style: 24px; font-weight: lighter; margin: 0 5px;}
+.line_huodong_a3{ color: #b3b3b3; font-size: 12px; margin-top: 10px; margin-bottom: 15px;}
+.line_huodong_a4{ height: 1px; width: 100%; background: #d2d2d2; margin: 10px auto;}
+.line_huodong_a5 { width: 100%; margin: 0 auto; font-size: 12px; color: #ccccbf; padding-top: 5px; font-size: 12px;}
+.line_huodong_a5 a { color: #535353; line-height: 30px; text-decoration: none; padding: 0 5px;}
+.dhdbb{ font-size: 16px;}
+
+.xhd_c { width: 49%; float: left; margin-right: 5px; margin-bottom: 5px; box-shadow: 0px 1px 2px rgba(0,0,0,0.2)}
+.xhd_c_a_a { height: 5px; margin-top: -5px;}
+.xhd_c_b { height: 62px;}
+.xhd_c_b_a { width: 100%; font-family: "微软雅黑","Arial"; font-size: 12px; line-height: 25px; color: #333; padding: 5px 0px 0px 4px; box-sizing: border-box; text-align: left; height: 33px; overflow: hidden;}
+.xhd_c_b_b { height: 16px; padding-left: 4px; overflow: hidden;}
+.xhd_c_b_b1 { font-family: "微软雅黑"; font-weight: normal; font-size: 12px; line-height: 16px; color: #666; float: left;}
+.xhd_c_b_b2 { color: #f00; padding-left: 10px; font-family: "微软雅黑","Arial"; font-weight: normal; font-size: 12px; line-height: 16px; float: left;}
+.xhd_c_b_b4 { color: #666; padding-left: 10px; font-family: "微软雅黑","Arial"; font-weight: normal; font-size: 12px; line-height: 16px; float: left;}
+.line_huodong_a .cur{ margin-right: 0;}
+
+/*线上活动*/
+.online_huodong{ width: 100%; max-width: 600px; background: #f1f1f1; overflow: hidden; padding: 30px 15px; box-sizing:border-box;}
+.online_huodong_a{ overflow: hidden; margin-bottom: 27px;}
+.online_huodong_title{ float: left; border-left: 5px solid #0088dd; padding-left: 10px; font-size: 26px; color: #333;}
+.online_huodong_more{ float: right; font-size: 20px; color: #0088dd; margin-top: 4px;}
+.wm_zhuanti_b span{ font-size: 14px;}
+.online_huodong_c{ overflow: hidden; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 20px;}
+.online_huodong_c1{ float: left; margin-right: 10px; width: 32%;}
+.online_huodong_c1 img{ width: 100%;}
+.online_huodong_c2{ float: left; width: 64%;}
+.online_huodong_c2 div:nth-child(1){ color: #333; font-size: 20px;padding: 1% 0;}
+.online_huodong_c2 div:nth-child(2){ color: #999; font-size: 14px; line-height: 23px;}
+.online_huodong .nomargin{ border-bottom: none; padding-bottom: 0px; margin-bottom: 0px;}
+
+/*活动回顾*/
+.huigu_huodong{ width: 100%; max-width: 600px; overflow: hidden; padding: 30px 15px; margin-bottom: 50px; box-sizing:border-box;}
+.huigu_huodong_a{ overflow: hidden; margin-bottom: 27px;}
+.huigu_huodong_title{ float: left; border-left: 5px solid #0088dd; padding-left: 10px; font-size: 26px; color: #333;}
+.huigu_huodong_more{ float: right; font-size: 20px; color: #0088dd; margin-top: 4px;}
+.huigu_huodong_b{ overflow: hidden;}
+.huigu_huodong_b1{ width: 100%; font-size: 16px;color: #333; margin-bottom: 0px; overflow: hidden; border-bottom: 1px dashed #f4f4f4; height: 45px; line-height: 45px;}
+.huigu_huodong_b2{ float: left; width: 70%; overflow: hidden;}
+.huigu_huodong_b2:hover{ text-decoration: underline; color: #0088dd;}
+.huigu_huodong_b3{ font-size: 12px; color: #999; float: right; width: 30%;}
+

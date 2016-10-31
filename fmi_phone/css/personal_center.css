@@ -1,0 +1,44 @@
+/*banner*/
+.personal_center_banner{ width: 100%; max-width: 600px; background: url(../images/72.jpg) no-repeat center; overflow: hidden; margin-top: 70px; padding: 10%; padding-bottom: 20%; box-sizing: border-box; position: relative;}
+@media screen and (max-width: 640px){
+	.personal_center_banner{ margin-top: 50px;}
+}
+
+/*头像*/
+.personal_center_tx{ position: relative; overflow: hidden; display: block;}
+.personal_center_tx_a{ width: 30%; height: 30%; border-radius: 100%; background: #fff; border: 4px solid rgba(255,255,255,0.3); margin: 0 auto;}
+.personal_center_tx_a img{ border-radius: 100%; width: 100%; 
+	-webkit-transition: -webkit-transform 1s ease-out;
+	-moz-transition: -moz-transform 1s ease-out;
+	-o-transition: -o-transform 1s ease-out;
+	-ms-transition: -ms-transform 1s ease-out;}
+.personal_center_tx_a img:hover {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+/*修改头像*/
+.personal_center_tx_b{ width: 20%; height: 20%; position: absolute; top: 6px; left: 50%; margin-left: -15%; display: none;}
+.personal_center_tx_b img{ border-radius: 100%; width: 100%;}
+
+/*资料*/
+.personal_center_name{ text-align: center; font-size: 20px; color: #fff; margin-top: 20px;}
+.personal_center_xf{ font-size: 14px; color: #fc9b5a; text-align: center; margin-top: 10px;}
+.personal_center_xg{ background: rgba(0,0,0,0.3); width: 100%; position: absolute; left: 0; bottom: 0; overflow: hidden; padding: 10px 0;}
+.same{ width: 33%; text-align: center; overflow: hidden; float: left; font-size: 12px; color: #fff;}
+.same img{ width: 12%;}
+
+/*个人中心分类*/
+.personal_center_fenlei{ width: 100%; padding: 30px 15px; box-sizing: border-box; overflow: hidden; background: #f1f1f1;}
+.personal_center_fenlei_a a{ overflow: hidden;}
+.personal_center_fenlei_a a:hover{ box-shadow: 0px 0px 3px rgba(0,0,0,0.3);}
+.equal{ width: 24%; overflow: hidden; float: left; margin-right: 1%; background: #fff; font-size: 14px; text-align: center; margin-bottom: 1%; padding-top: 5%; padding-bottom: 5%;}
+.equal img{ width: 25%; color: #fc9b5a; margin-top: 5px; margin-bottom: 5px;}
+.personal_center_fenlei_a4,.personal_center_fenlei_a8{ margin-right: 0;}
+@media screen and (max-width: 600px){
+	.equal{ font-size: 12px;}
+}
+.equal:hover{ box-shadow: 0px 0px 7px rgba(0,0,0,0.1);}

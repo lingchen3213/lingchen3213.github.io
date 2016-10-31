@@ -1,0 +1,181 @@
+@media only screen and (max-width:320px) and (min-width:310px){
+
+	body{
+		font-size:13.33333px !important;
+	}
+
+}
+@media only screen and (max-width:480px) and (min-width:470px){
+	body{
+		font-size:13.33333px !important;
+	}
+
+
+}
+
+@media only screen and (max-width:480px) and (min-width:340px){
+	body{
+		font-size:14px !important;
+	}
+
+
+
+}
+
+
+@media only screen and (max-width:560px) and (min-width:480px){
+	body{
+		font-size:14px !important;
+	}
+
+}
+
+/*....................................................................................................................*/
+
+@media only screen and (max-width:320px) and (min-width:310px){
+
+	.wm_search1{
+		font-size:14px !important;
+	}
+	.wm_search2{
+		font-size:14px !important;
+	}
+
+}
+@media only screen and (max-width:480px) and (min-width:470px){
+	.wm_search1{
+		font-size:14px !important;
+	}
+	.wm_search2{
+		font-size:14px !important;
+	}
+
+}
+
+@media only screen and (max-width:480px) and (min-width:340px){
+	.wm_search1{
+		font-size:16px !important;
+	}
+
+	.wm_search2{
+		font-size:16px !important;
+	}
+
+}
+
+
+@media only screen and (max-width:560px) and (min-width:480px){
+	.wm_search1{
+		font-size:20px !important;
+	}
+	.wm_search2{
+		font-size:22px !important;
+	}
+}
+
+/*....................................................................................................................*/
+
+@media only screen and (max-width:320px) and (min-width:310px){
+
+	.wm_fenlei_same,.wm_fenlei_more,.huigu_huodong_more,.online_huodong_more{
+		font-size:12px !important;
+	}
+	.wm_fenlei_title,.huigu_huodong_title,.online_huodong_title{
+		font-size:14px !important;
+	}
+	.wm_fenlei_a,.huigu_huodong_a{ margin-bottom: 10px;}
+	.wm_zhuanti_b{ font-size: 12px !important;}
+}
+@media only screen and (max-width:480px) and (min-width:470px){
+	.wm_fenlei_same,.wm_fenlei_more,.huigu_huodong_more,.online_huodong_more{
+		font-size:12px !important;
+	}
+	.wm_fenlei_title,.huigu_huodong_title,.online_huodong_title{
+		font-size:14px !important;
+	}
+	.wm_fenlei_a,.huigu_huodong_a{ margin-bottom: 10px;}
+	.wm_zhuanti_b{ font-size: 16px !important;}
+	.wm_zhuanti_b span{ font-size: 10px!important;}
+}
+
+@media only screen and (max-width:480px) and (min-width:340px){
+	.wm_fenlei_same,.wm_fenlei_more,.huigu_huodong_more,.online_huodong_more{
+		font-size:16px !important;
+	}
+
+	.wm_fenlei_title,.huigu_huodong_title,.online_huodong_title{
+		font-size:18px !important;
+	}
+	.wm_fenlei_a,.huigu_huodong_a{ margin-bottom: 16px;}
+	.wm_zhuanti_b{ font-size: 16px !important;}
+	.wm_zhuanti_b span{ font-size: 10px!important;}
+}
+
+
+@media only screen and (max-width:560px) and (min-width:480px){
+	.wm_fenlei_same,.wm_fenlei_more,.huigu_huodong_more,.online_huodong_more{
+		font-size:20px !important;
+	}
+	.wm_fenlei_title,.huigu_huodong_title,.online_huodong_title{
+		font-size:22px !important;
+	}
+	.wm_fenlei_a,.huigu_huodong_a{ margin-bottom: 20px;}
+}
+/*....................................................................................................................*/
+
+@media only screen and (max-width:535px) and (min-width:310px){
+
+	.wm_anli_c2 div:nth-child(1){ padding: 1% 0;}
+	.wm_anli_c2 div:nth-child(2){ line-height: 20px;}
+	.online_huodong_c2 div:nth-child(1){ padding: 1% 0;}
+	.online_huodong_c2 div:nth-child(2){ line-height: 20px;}
+}
+@media only screen and (max-width:480px) and (min-width:440px){
+
+	.wm_anli_c2 div:nth-child(1){ padding: 1% 0; font-size: 16px;}
+	.wm_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+	.online_huodong_c2 div:nth-child(1){ padding: 1% 0; font-size: 16px;}
+	.online_huodong_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+	.huigu_huodong_b1{ font-size: 14px;}
+}
+}
+@media only screen and (max-width:439px) and (min-width:395px){
+
+	.wm_anli_c2 div:nth-child(1){ padding: 1% 0; font-size: 14px;}
+	.wm_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+	.online_huodong_c2 div:nth-child(1){ padding: 1% 0; font-size: 14px;}
+	.online_huodong_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+}
+@media only screen and (max-width:439px) and (min-width:310px){
+	.wm_anli_c2{ width: 55%; overflow: hidden;}
+	.wm_anli_c2 div:nth-child(1){ padding-top: 0%; font-size: 14px; height: 20px; overflow: hidden;}
+	.wm_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px; height: 40px; overflow: hidden;}
+	.online_huodong_c2{ width: 64%; overflow: hidden;}
+	.online_huodong_c2 div:nth-child(1){ padding-top: 0%; font-size: 14px;}
+	.online_huodong_c2 div:nth-child(2){ line-height: 20px; font-size: 12px; height: 40px; overflow: hidden;}
+	.huigu_huodong_b1{ font-size: 14px;}
+}
+
+/*.........................................................*/
+@media only screen and (max-width:535px) and (min-width:470px){
+	.welcome{ padding: 0 80px;}
+}
+@media only screen and (max-width:469px) and (min-width:310px){
+	.welcome{ padding: 0 50px;}
+}
+
+/*线上活动详情页的自适应.........................................................*/
+@media only screen and (max-width:500px) and (min-width:310px){
+	.detail_online_title{ font-size: 14px;}
+	.detail_online_date{ font-size: 14px;}
+}
+@media only screen and (max-width:560px) and (min-width:310px){
+	.detail_banner{ margin-top: 50px;}
+	.huodong_banner{ margin-top: 50px;}
+}
+@media only screen and (max-width:480px) and (min-width:430px){
+	.wm_left_c4{ width: 13%;}
+}
+@media only screen and (max-width:429px) and (min-width:310px){
+	.wm_left_c4{ width: 15%;}
+}

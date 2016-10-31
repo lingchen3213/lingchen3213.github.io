@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>飞马网_IT互联网牛人提升、转型社区</title>
+	<meta name="description" content="Ghost 是一套基于 Node.js 构建的开源博客平台（Open source blogging platform），具有易用的书写界面和体验，博客内容默认采用 Markdown 语法书写，目标是取代臃肿的 Wordpress。">
+    <meta name="keywords" content="Ghost,blog,Ghost中国,Ghost博客,Ghost中文,Ghost中文文档">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/fmi_phone.js"></script>
+    <link href="css/head_footer.css" type="text/css" rel="stylesheet" />
+	<link href="css/personal_center.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+<div class="wm_shadow">
+    <!-- 头部 -->
+    <div class="wm_nav">
+        <div class="nav">
+            <span class="fmi_phone_logo" style="border-right:none;"><img src="images/Xlogo1.png" alt="" /></span>
+            <span class="fmi_phone_dh" id="nav_totle"><img src="images/tutu.png" alt="" /></span>
+        </div>
+        <!-- 下拉导航 -->
+        <div class="nav_max" id="nav_toggle">
+            
+            <div class="nav_max1">
+                <a class="wm_same1 nav_max1_a" href="login.html">立即登录</a>
+                <a class="wm_same1 nav_max1_b" href="zhuce.html">免费注册</a>
+            </div>
+            
+            <div class="nav_max2">
+                <a title="首页" class="wm_same2 nav_max2_a" href="index.html">
+                    <img alt="首页" src="images/01.png">首页</a>
+                <a title="分类" class="wm_same2 nav_max2_b" href="fenlei.html">
+                    <img alt="分类" src="images/02.png">分类</a>
+            </div>
+            <div class="nav_max3">
+                <a title="圈子" class="wm_same2 nav_max3_a" href="quanzi.html">
+                    <img alt="圈子" src="images/03.png">圈子</a>
+                <a title="活动" class="wm_same2 nav_max3_b" href="huodong.html">
+                    <img alt="活动" src="images/04.png">活动</a>
+            </div>
+            <div class="nav_max4">
+                <a title="案例" class="wm_same2 nav_max4_a" href="anli.html">
+                    <img alt="案例" src="images/05.png">案例</a>
+                <a title="问答" class="wm_same2 nav_max4_b" href="wenda.html">
+                    <img alt="问答" src="images/06.png">问答</a>
+            </div>
+            <div class="nav_max5">
+                <a title="我的飞马网" class="wm_same2 nav_max5_a" href="personal_center.html">
+                    <img alt="我的飞马网" src="images/07.png">我的飞马网                    
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- banner和头像 -->
+    <div class="personal_center_banner">
+        <a href="" class="personal_center_tx">
+            <div class="personal_center_tx_a">
+                <img src="http://www.fmi.com.cn/phpsso_server/uploadfile/avatar/4/1/30690/180x180.jpg" alt="头像" />
+            </div>
+            <!-- <div class="personal_center_tx_b">
+                <img src="images/68.png" alt="头像" />
+            </div> -->
+        </a>
+        <div class="personal_center_name">sdgsdfdf</div>
+        <div class="personal_center_xf">学分：430分&nbsp;&nbsp;|&nbsp;&nbsp;可兑学分：430分</div>
+        <div class="personal_center_xg">
+            <ul>
+                <a href="personal_data.html">
+                    <li class="personal_center_xg_a same"><img src="icon/01.png" alt="" /><br>
+                    个人资料</li>
+                </a>
+                <a href="password.html"><li class="personal_center_xg_b same"><img src="icon/02.png" alt="" /><br>修改密码</li></a>
+                <a href="iphone.html"><li class="personal_center_xg_c same"><img src="icon/03.png" alt="" /><br>修改手机</li></a>
+            </ul>
+        </div>
+    </div>
+    <!-- 鼠标滑过头像出现修改头像 -->
+    <script type="text/javascript">
+        $(".personal_center_tx_a").hover(function() {
+            $(".personal_center_tx_b").css("display","block");
+        }, function() {
+            $(".personal_center_tx_b").css("display","none");
+        });
+    </script>
+
+    <!-- 个人中心分类 -->
+    <div class="personal_center_fenlei">
+        <div class="personal_center_fenlei_a">
+            <a href="my_fatie.html"><div class="personal_center_fenlei_a1  equal"><img src="icon/04.png" alt="" /><br>Wo的发帖</div></a>
+            <a href="my_huifu.html"><div class="personal_center_fenlei_a2  equal"><img src="icon/05.png" alt="" /><br>Wo的回复</div></a>
+            <a href="my_guanzhu.html"><div class="personal_center_fenlei_a3  equal"><img src="icon/06.png" alt="" /><br>Wo的关注</div></a>
+            <a href="my_quanzi.html"><div class="personal_center_fenlei_a4  equal"><img src="icon/07.png" alt="" /><br>Wo的圈子</div></a>
+            <a href="my_shoucang.html"><div class="personal_center_fenlei_a5  equal"><img src="icon/08.png" alt="" /><br>Wo的收藏</div></a>
+            <a href="my_duihuan.html"><div class="personal_center_fenlei_a6  equal"><img src="icon/09.png" alt="" /><br>积分兑换</div></a>
+            <a href="my_jiangli.html"><div class="personal_center_fenlei_a7  equal"><img src="icon/10.png" alt="" /><br>Wo的奖励</div></a>
+            <a href="message.html"><div class="personal_center_fenlei_a8  equal"><img src="icon/11.png" alt="" /><br>站内信</div></a>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <div class="wm_footer">
+        <div class="wm_footer_a">
+            <div class="wm_footer_a1">
+                <img src="images/18.png" alt="" />
+                <p>请用QQ扫一扫，下载APP</p>
+            </div>
+            <div class="wm_footer_a1">
+                <img src="images/19.jpg" alt="" />
+                <a href="http://shang.qq.com/wpa/qunwpa?idkey=ac49e16d2550c1cae19494124808e5c3a5418db27a5357a673c9628266d3c23a"><p>点击加入QQ群</p></a>
+            </div>
+            <div class="wm_footer_a1 nomargin">
+                <img src="images/20.jpg" alt="" />
+                <p>扫一扫，加微信</p>
+            </div>
+        </div>
+        <div class="wm_footer_b">
+            <div class="wm_footer_b1">
+                <a href="login.html"><p>登录</p></a>
+                <a href="zhuce.html"><p>注册</p></a>
+                <a href="http://www.fmi.com.cn/index.php?m=member&c=index&a=account_manage_info&t=1"><p>电脑版</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

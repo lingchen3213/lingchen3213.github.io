@@ -1,0 +1,30 @@
+.wm_liebiao{ margin-top: 70px; width: 100%; max-width: 600px; height: 100%; overflow: hidden; background: #f1f1f1; padding-bottom: 50px;}
+@media screen and (max-width: 560px){
+	.wm_liebiao{ margin-top: 50px;}
+}
+.wm_left_a {height: 43px;border-bottom: 1px #e4e4e4 solid;border-top: 1px #e4e4e4 solid;}
+.wm_left_a li{ width:50%; height: 42px; font-size: 16px;font-family: "微软雅黑";cursor: pointer;float: left;color: #333;text-align: center;line-height: 42px; background: #fff;}
+.wm_left_a li.wm_left_a_c {background: #e2e2e2;}
+.wm_left_b{ width: 100%; padding: 30px 15px; box-sizing: border-box; display: none;}
+.duihuan_b1{ display: none; width: 100%;}
+.duihuan_b1 a{ overflow: hidden;}
+.duihuan_b1_a{ width: 48.5%; margin-right: 3%; background: #fff; border-radius: 5px; float: left; overflow: hidden; padding: 0% 0% 2% 0%; box-sizing: border-box; margin-bottom: 3%;}
+.duihuan_b1_a1{ border-radius: 100%; margin: 0 auto; padding: 3%;}
+.duihuan_b1_a1 img{ width: 100%;}
+.duihuan_b1_a2{ text-align: center; font-size: 14px; font-family: "微软雅黑"; color: #333; margin-top: 5px; margin-bottom: 5px; border-bottom: 1px solid #ccc; padding-bottom: 5px;}
+.duihuan_b1_a2 span{ color: #999;}
+.duihuan_b1_a3{ color: #333; font-family: "微软雅黑"; font-size: 14px; text-align: center;}
+.duihuan_b1_a3 span{ color: #88aa22;}
+.wm_left_b .nomargin{ margin-right: 0;}
+/*兑换记录*/
+.wm_duihuan{ width: 100%; padding: 15px 15px; box-sizing: border-box; background: #fff; border-bottom: 1px solid #ccc; overflow: hidden;}
+.wm_left_b1{ float: left; width: 15%; margin-right: 2%;}
+.wm_left_b1 img{ width: 100%;}
+.wm_left_b2{ float: left; overflow: hidden; width: 83%; font-size: 14px;}
+.wm_left_b2_b{ overflow: hidden; font-size: 12px; color: #999; margin-top: 10px;}
+.wm_left_b2_b1{ float: left;}
+.wm_left_b2_b2{ float: right;}
+@media screen and (max-width: 530px){
+	.wm_left_b1{ width: 20%}
+	.wm_left_b2{ width: 78%;}
+}

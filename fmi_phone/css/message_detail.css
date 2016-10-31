@@ -1,0 +1,13 @@
+.wm_liebiao{ margin-top: 70px; width: 100%; max-width: 600px; height: 100%; overflow: hidden; background: #fff; padding-bottom: 50px;}
+@media screen and (max-width: 560px){
+	.wm_liebiao{ margin-top: 50px;}
+}
+.wm_main{ height: 100%;}
+.wm_left_b{ width: 100%; padding: 30px 15px 0px 15px; box-sizing: border-box; display: none;}
+.message_list_a{ overflow: hidden; border-bottom: 1px solid #f1f1f1; margin-bottom: 10px; padding-bottom: 10px;}
+.message_list_b{ overflow: hidden; display: block; float: left; width: 100%;}
+.message_list_b1{ float: left; margin-right: 2%;}
+.message_list_b2{ float: left; font-size: 14px; line-height: 20px; width: 83%; overflow: hidden;}
+.message_list_b2 p:nth-child(1){ height: 20px; overflow: hidden;}
+.message_list_b2 p:nth-child(2){ font-size: 12px; color: #999;}
+.message_list_b2 p:nth-child(3){ font-size: 12px; color: #999;}

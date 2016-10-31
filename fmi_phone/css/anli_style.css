@@ -1,0 +1,131 @@
+
+/*banner*/
+.anli_banner{ margin-top: 70px; position: relative;}
+.anli_banner_a{ position: relative;}
+.anli_banner_a img{ width: 100%;}
+.anli_banner_a1{ position: absolute; font-size: 24px; font-weight: bold; color: #fff; text-align:center; left: 50%; top: 30px; margin-left: -172px; line-height: 35px;}
+.anli_banner_b{ float: left; position: absolute; left: 35%; top: 50%; background: #f00; color: #fff; border-radius: 5px; width: 30%; padding: 10px 0; font-size: 14px; text-align: center;}
+@media screen and (max-width: 560px){
+	.anli_banner_a1{ font-size: 20px; line-height: 30px; margin-left: -140px;}
+	.anli_banner{ margin-top: 50px;}
+}
+@media screen and (max-width: 530px){
+	.anli_banner_c{ display: none;}
+	.anli_banner_b{ top:60%;}
+
+}
+
+@media screen and (max-width: 400px){
+	.anli_banner_b{ top:60%;}
+	.anli_banner_c{ display: none;}
+}
+@media screen and (max-width: 399px){
+	.anli_banner_b{ top:60%; font-size: 12px;}
+	.anli_banner_c{ display: none;}
+	.anli_banner_a1{ font-size: 16px; line-height: 25px; margin-left: -116px;}
+}
+.anli_banner_c{ font-size: 12px; color: #fff; position: absolute; bottom: 20px; left: 5%;}
+.anli_banner_c1{ float: left; line-height: 22px;}
+.anli_banner_c2 li{ float: left;}
+.anli_banner_c2 li a{ color: #fff; margin-right: 10px; line-height: 22px;}
+.anli_banner_c2 li a:hover{ color: orange;}
+
+/*硬技能软技能*/
+.anli_skill{ padding: 30px 15px; width: 100%; max-width: 600px; box-sizing:border-box;}
+.anli_ying_skill{ border-top: 1px solid #ccc; position: relative; margin-bottom: 15px;}
+.anli_ying_skill_a{ background: #fff; width: 80px; height: 30px; line-height: 30px; text-align: center; color: #333; font-size: 16px; position: absolute; left: 50%; margin-left: -40px; top: -15px;}
+.anli_ying_skill_b{ overflow: hidden; padding-top: 20px; padding-bottom: 10px;}
+.anli_ying_skill_b1{ float: left; font-size: 14px; padding: 5px 10px; border-radius: 3px; color: #999; margin-bottom: 10px;}
+.anli_ying_skill_b1:hover{ background: #0088dd; color: #fff;}
+.anli_ying_skill_b .cur{ background: #0088dd; color: #fff;}
+
+.anli_ruan_skill{ border-top: 1px solid #ccc; position: relative;}
+.anli_ruan_skill_a{ background: #fff; width: 80px; height: 30px; line-height: 30px; text-align: center; color: #333; font-size: 16px; position: absolute; left: 50%; margin-left: -40px; top: -15px;}
+.anli_ruan_skill_b{ overflow: hidden; padding-top: 20px; padding-bottom: 10px;}
+.anli_ruan_skill_b1{ float: left; font-size: 14px; padding: 5px 10px; border-radius: 3px; color: #999; margin-bottom: 10px;}
+.anli_ruan_skill_b1:hover{ background: #0088dd; color: #fff;}
+
+@media screen and (max-width: 450px){
+	.anli_ying_skill_b1{ font-size: 12px;}
+	.anli_ruan_skill_b1{ font-size: 12px;}
+}
+.kong{ height: 15px; width: 100%; background: #f1f1f1;}
+/*全部案例*/
+.all_anli{ width: 100%; max-width: 600px; overflow: hidden; padding: 30px 15px; box-sizing:border-box;}
+.all_anli_a{ overflow: hidden; margin-bottom: 27px;}
+.all_anli_title{ float: left; border-left: 5px solid #0088dd; padding-left: 10px; font-size: 26px; color: #333;}
+.all_anli_more{ float: right; font-size: 20px; color: #0088dd; margin-top: 4px;}
+.wm_zhuanti_b span{ font-size: 14px;}
+.all_anli_b{ margin-top: 20px; margin-bottom:20px; overflow: hidden;}
+.all_anli_b1{ margin-right: 4px;}
+.all_anli_b1,.all_anli_b2{ margin-bottom: 5px; float: left; width: 32%;}
+.all_anli_b1 img,.all_anli_b2 img{ width: 100%;}
+.all_anli_c{ overflow: hidden; border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 20px;}
+.all_anli_c1{ float: left; margin-right: 10px; width: 32%; position: relative;}
+.all_anli_c1 img{ width: 100%;}
+.all_anli_c1 div{ position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; text-align: center; background: #000; color: #fff; font-size: 12px;}
+.all_anli_c2{ float: left; width: 64%;}
+.all_anli_c2 div:nth-child(1){ color: #333; font-size: 20px;padding: 1% 0 3% 0;}
+.all_anli_c2 div:nth-child(2){ color: #999; font-size: 14px; line-height: 23px;}
+.all_anli .nomargin{ border-bottom: none; padding-bottom: 0px; margin-bottom: 0px;}
+@media only screen and (max-width:320px) and (min-width:310px){
+	.all_anli_more{
+		font-size:12px !important;
+	}
+	.all_anli_title{
+		font-size:14px !important;
+	}
+	.all_anli_a{ margin-bottom: 10px;}
+}
+@media only screen and (max-width:480px) and (min-width:470px){
+	.all_anli_more{
+		font-size:12px !important;
+	}
+	.all_anli_title{
+		font-size:14px !important;
+	}
+	.all_anli_a{ margin-bottom: 10px;}
+}
+
+@media only screen and (max-width:480px) and (min-width:340px){
+	.all_anli_more{
+		font-size:16px !important;
+	}
+
+	.all_anli_title{
+		font-size:18px !important;
+	}
+	.all_anli_a{ margin-bottom: 16px;}
+}
+@media only screen and (max-width:560px) and (min-width:480px){
+	.all_anli_more{
+		font-size:20px !important;
+	}
+	.all_anli_title{
+		font-size:22px !important;
+	}
+	.all_anli_a{ margin-bottom: 20px;}
+}
+@media only screen and (max-width:535px) and (min-width:310px){
+
+	.all_anli_c2 div:nth-child(1){ padding: 1% 0;}
+	.all_anli_c2 div:nth-child(2){ line-height: 20px;}
+}
+@media only screen and (max-width:480px) and (min-width:440px){
+
+	.all_anli_c2 div:nth-child(1){ padding: 1% 0; font-size: 16px;}
+	.all_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+}
+}
+@media only screen and (max-width:439px) and (min-width:395px){
+	.all_anli_c2 div:nth-child(1){ padding: 1% 0; font-size: 14px;}
+	.all_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px;}
+}
+@media only screen and (max-width:439px) and (min-width:310px){
+	.all_anli_c2 div:nth-child(1){ padding-top: 0%; font-size: 14px;}
+	.all_anli_c2 div:nth-child(2){ line-height: 20px; font-size: 12px; height: 40px; overflow: hidden;}
+}
+@media only screen and (max-width:443px){
+	.all_anli_c1 div{ display: none;}
+
+}

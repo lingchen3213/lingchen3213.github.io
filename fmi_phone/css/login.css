@@ -1,0 +1,28 @@
+*{ margin: 0; padding: 0; border: 0;}
+a{ color: #fff; text-decoration: none;}
+body{ font-family: "微软雅黑"; font-size: 14px;}
+.welcome { width: 100%; max-width: 600px; height: 970px; margin: 0 auto; background: url(../images/22.jpg) repeat; overflow: hidden; padding: 0 100px; box-sizing:border-box;}
+.welcome .fm_logo{ width: 50%; margin: 0 auto; margin-bottom: 40px; margin-top: 100px; display: block;}
+.welcome input{ border-radius: 50px; width: 100%; padding: 4% 12px; text-align: center; box-sizing:border-box; margin-bottom: 30px; border: 1px solid #fff; background: none; color: #fff!important; font-size: 14px;}
+.welcome input:focus{ color: #fff; outline: none;}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+    font-family: "微软雅黑";
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    font-family: "微软雅黑";
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    font-family: "微软雅黑";
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+    font-family: "微软雅黑";
+}
+.welcome button{ width: 100%; padding: 4% 0; text-align: center; background: #fff; color: #000; border-radius: 50px; margin-bottom: 20px; font-family: "微软雅黑"; font-size: 14px; cursor: pointer;}
+.welcome .forget{ text-align: center;}
+.welcome .forget p{ color: #fff;}
+.welcome .forget a{ }
+.welcome .fanhui_index{ text-align: center; margin-top: 20px;}

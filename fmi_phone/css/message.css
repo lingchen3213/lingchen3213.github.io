@@ -1,0 +1,26 @@
+.wm_liebiao{ margin-top: 70px; width: 100%; max-width: 600px; height: 100%; overflow: hidden; background: #f1f1f1; padding-bottom: 50px;}
+@media screen and (max-width: 560px){
+	.wm_liebiao{ margin-top: 50px;}
+}
+.wm_left_a {height: 43px;border-bottom: 1px #e4e4e4 solid;border-top: 1px #e4e4e4 solid;}
+.wm_left_a li{ width:50%; height: 42px; font-size: 16px;font-family: "微软雅黑";cursor: pointer;float: left;color: #333;text-align: center;line-height: 42px; background: #fff;}
+.wm_left_a li.wm_left_a_c {background: #e2e2e2;}
+.wm_left_b{ width: 100%; padding: 30px 15px 0px 15px; box-sizing: border-box; display: none; background: #fff;}
+.message_sel{ width: 100%; overflow: hidden;}
+.message_sels{ overflow: hidden; float: left;}
+.message_sel_a{ float: left; margin-right: 5px; padding: 5px 15px; background: #f00; color: #fff; font-family: "微软雅黑"; font-size: 12px; cursor: pointer;}
+.message_sel_b{ float: right; background: #88aa22; color: #fff;padding: 5px 15px; font-family: "微软雅黑"; font-size: 12px;}
+@media screen and (max-width: 425px){
+	.message_sels{ float: none;}
+	.message_sel_b{ float: none; margin-top: 10px; padding: 5px 14px; width: 85px;}
+}
+
+.message_list{ overflow: hidden; padding: 30px 0;}
+.message_list_a{ overflow: hidden; border-bottom: 1px solid #f1f1f1;height: 40px;line-height: 40px; margin-bottom: 10px; padding-bottom: 10px;}
+.message_list_a1{ width: 20px; height: 20px; float: left; vertical-align: middle; margin-right: 2%; margin-top: 10px;}
+.message_list_b{ overflow: hidden; display: block; float: left; width: 90%;}
+.message_list_b1{ float: left; margin-right: 2%;}
+.message_list_b2{ float: left; font-size: 14px; line-height: 20px; width: 70%; overflow: hidden;}
+.message_list_b2 p:nth-child(1){ height: 20px; overflow: hidden;}
+.message_list_b2 p:nth-child(2){ font-size: 12px; color: #999;}
+.message_list_b3{ float: right; font-size: 12px; color: #999;}

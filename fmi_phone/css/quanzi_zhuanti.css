@@ -1,0 +1,106 @@
+
+/*banner*/
+.quanzi_banner{ margin-top: 70px; position: relative;}
+.quanzi_banner_a{ position: relative;}
+.quanzi_banner_a img{ width: 100%;}
+.quanzi_banner_a1{ position: absolute; font-size: 24px; font-weight: bold; color: #fff; text-align:center; left: 50%; top: 30px; margin-left: -154px; line-height: 35px;}
+.quanzi_banner_b{ background: #fff; color: #000; border-radius: 3px; width: 80%; font-size: 14px; text-align: center; box-sizing: border-box; position: absolute; left: 10%; top: 35%;}
+.quanzi_banner_b1{ width: 85%; float: left; box-sizing:border-box; padding: 12px 0; font-family: "微软雅黑"; padding-left: 10px; font-size: 14px;}
+.quanzi_banner_b1:focus{ outline: none;}
+.quanzi_banner_b2{ width: 15%; float: left; padding: 11px 0; cursor: pointer;}
+.quanzi_banner_b2 img{ width: 18px}
+@media screen and (max-width: 560px){
+	.quanzi_banner_a1{ font-size: 20px; line-height: 30px; margin-left: -140px;}
+	.quanzi_banner{ margin-top: 50px;}
+}
+@media screen and (max-width: 530px){
+	.quanzi_banner_c{ display: none;}
+}
+
+@media screen and (max-width: 400px){
+	.quanzi_banner_c{ display: none;}
+	.quanzi_banner_b1{ padding: 10px 0; padding-left: 10px;}
+	.quanzi_banner_b2{ padding: 9px 0px;}
+}
+@media screen and (max-width: 399px){
+	.quanzi_banner_b{ font-size: 12px;}
+	.quanzi_banner_c{ display: none;}
+	.quanzi_banner_a1{ font-size: 16px; line-height: 25px; margin-left: -116px;}
+}
+.quanzi_banner_c{ font-size: 12px; color: #fff; position: absolute; bottom: 20px; left: 5%;}
+.quanzi_banner_c1{ float: left; line-height: 22px;}
+.quanzi_banner_c2 li{ float: left;}
+.quanzi_banner_c2 li a{ color: #fff; margin-right: 10px; line-height: 22px;}
+.quanzi_banner_c2 li a:hover{ color: orange;}
+
+/*全部圈子*/
+.all_quanzi{ width: 100%; max-width: 600px; overflow: hidden; padding: 30px 15px; box-sizing:border-box;}
+.all_quanzi_a{ overflow: hidden; margin-bottom: 27px;}
+.all_quanzi_title{ float: left; border-left: 5px solid #0088dd; padding-left: 10px; font-size: 26px; color: #333;}
+.all_quanzi_more{ float: right; font-size: 20px; color: #0088dd; margin-top: 4px;}
+.wm_zhuanti_b span{ font-size: 14px;}
+.all_quanzi_b{ margin-top: 20px; margin-bottom:20px; overflow: hidden;}
+.all_quanzi_b1{ margin-right: 4px;}
+.all_quanzi_b1,.all_quanzi_b2{ margin-bottom: 5px; float: left; width: 32%;}
+.all_quanzi_b1 img,.all_quanzi_b2 img{ width: 100%;}
+.all_quanzi_c{ overflow: hidden; border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 0 15px; padding-bottom: 20px;}
+/*.all_quanzi_c1{ float: left; margin-right: 25px; width: 32%; position: relative;}
+.all_quanzi_c1 img{ width: 100%;}*/
+.all_quanzi_c2{ float: left; width: 100%;}
+.all_quanzi_d{ overflow: hidden; border-bottom: 1px dashed #ccc; padding-bottom: 10px; margin-bottom: 10px; position: relative;}
+.all_quanzi_tx{ border-radius: 100%; width: 60px; height: 60px; display: block; float: left; margin-right: 20px;}
+.all_quanzi_tx img{ border-radius: 100%; width: 60px;}
+.all_quanzi_d1{ color: #333; font-size: 20px;padding: 3% 0; padding-top: 0px;}
+.all_quanzi_d2{ color: #999; font-size: 12px;}
+.all_quanzi_d3{ font-size: 14px; background: #f00; color: #fff; text-align: center; padding: 2% 6%; border-radius: 3px; position: absolute;right: 0px; top: 5px;}
+.all_quanzi_d3:hover{ background: #0088dd;}
+.all_quanzi_e{ color: #999; font-size: 14px; line-height: 23px;}
+.all_quanzi .nomargin{ border-bottom: none; padding-bottom: 0px; margin-bottom: 0px;}
+@media only screen and (max-width:320px) and (min-width:310px){
+	.all_quanzi_more{
+		font-size:12px !important;
+	}
+	.all_quanzi_title{
+		font-size:14px !important;
+	}
+	.all_quanzi_a{ margin-bottom: 10px;}
+}
+@media only screen and (max-width:480px) and (min-width:470px){
+	.all_quanzi_more{
+		font-size:12px !important;
+	}
+	.all_quanzi_title{
+		font-size:14px !important;
+	}
+	.all_quanzi_a{ margin-bottom: 10px;}
+}
+
+@media only screen and (max-width:480px) and (min-width:340px){
+	.all_quanzi_more{
+		font-size:16px !important;
+	}
+
+	.all_quanzi_title{
+		font-size:18px !important;
+	}
+	.all_quanzi_a{ margin-bottom: 16px;}
+}
+@media only screen and (max-width:560px) and (min-width:480px){
+	.all_quanzi_more{
+		font-size:20px !important;
+	}
+	.all_quanzi_title{
+		font-size:22px !important;
+	}
+	.all_quanzi_a{ margin-bottom: 20px;}
+}
+@media only screen and (max-width:535px) and (min-width:310px){
+	.all_quanzi_d1{ font-size: 16px; padding: 0px; padding-bottom: 2%;}
+	.all_quanzi_d{ margin-bottom: 5px;}
+}
+@media only screen and (max-width:480px) and (min-width:440px){
+
+	.all_quanzi_d{ font-size: 16px;}
+	.all_quanzi_e { line-height: 20px; font-size: 12px;}
+}
+}
